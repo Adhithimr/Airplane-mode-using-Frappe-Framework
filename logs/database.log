@@ -1,0 +1,14 @@
+2025-05-14 08:03:44,165 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane ticket` MODIFY `duration_of_flight` decimal(21,9), MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-05-14 11:21:22,824 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9), MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2025-05-14 11:44:11,126 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9), MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2025-05-14 12:09:36,163 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `duration` decimal(21,9), MODIFY `is_published` tinyint NOT NULL DEFAULT 0
+2025-05-15 02:19:00,779 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirline` ADD COLUMN `website` varchar(140)
+2025-05-15 02:19:00,787 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirline` MODIFY `founding_year` int NOT NULL DEFAULT 0
+2025-05-15 10:57:12,452 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane ticket` MODIFY `duration_of_flight` decimal(21,9), MODIFY `flight_price` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `total_amount` decimal(21,9) NOT NULL DEFAULT 0.0

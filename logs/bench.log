@@ -1,0 +1,228 @@
+2025-05-12 08:52:50,263 DEBUG cd frappe-bench && python3 -m venv env
+2025-05-12 08:52:51,712 DEBUG cd frappe-bench && /home/labs/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-05-12 08:52:52,750 DEBUG cd frappe-bench && /home/labs/frappe-bench/env/bin/python -m pip install --quiet wheel
+2025-05-12 08:52:53,265 LOG Getting frappe
+2025-05-12 08:52:53,265 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2025-05-12 08:52:55,373 LOG Installing frappe
+2025-05-12 08:52:55,374 DEBUG cd /home/labs/frappe-bench && /home/labs/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/labs/frappe-bench/apps/frappe 
+2025-05-12 08:53:29,290 DEBUG cd /home/labs/frappe-bench/apps/frappe && yarn install --check-files
+2025-05-12 08:53:41,876 DEBUG cd frappe-bench && bench build
+2025-05-12 08:53:41,957 INFO /home/labs/.local/bin/bench build
+2025-05-12 08:53:51,475 LOG setting up backups
+2025-05-12 08:53:51,485 LOG backups were set up
+2025-05-12 08:53:51,485 INFO Bench frappe-bench initialized
+2025-05-12 08:54:36,729 INFO /home/labs/.local/bin/bench start
+2025-05-12 08:54:36,871 INFO /home/labs/.local/bin/bench schedule
+2025-05-12 08:54:36,879 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-12 08:54:36,916 INFO /home/labs/.local/bin/bench worker
+2025-05-12 08:54:36,929 INFO /home/labs/.local/bin/bench watch
+2025-05-12 08:57:49,998 INFO /home/labs/.local/bin/bench find
+2025-05-12 09:00:30,447 INFO /home/labs/.local/bin/bench new-site airoplane.localhost
+2025-05-12 09:01:27,579 INFO /home/labs/.local/bin/bench new-site airoplane.localhost
+2025-05-12 09:01:42,758 INFO /home/labs/.local/bin/bench new-site airoplane.localhost
+2025-05-12 09:02:16,706 INFO /home/labs/.local/bin/bench new-site airoplane.localhost
+2025-05-12 09:03:43,413 INFO /home/labs/.local/bin/bench new-site airplane.localhost
+2025-05-12 09:04:29,369 INFO /home/labs/.local/bin/bench new-site airplane.localhost
+2025-05-12 09:04:47,263 INFO /home/labs/.local/bin/bench new-site airplane.localhost
+2025-05-12 09:06:11,847 INFO /home/labs/.local/bin/bench new-site airplane.localhost
+2025-05-12 09:07:40,361 INFO /home/labs/.local/bin/bench new-site airplane.localhost
+2025-05-12 09:10:22,104 INFO /home/labs/.local/bin/bench new-site airplane.localhost
+2025-05-12 09:12:12,273 INFO /home/labs/.local/bin/bench start
+2025-05-12 09:12:12,378 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-12 09:12:12,408 INFO /home/labs/.local/bin/bench worker
+2025-05-12 09:12:12,410 INFO /home/labs/.local/bin/bench watch
+2025-05-12 09:12:12,449 INFO /home/labs/.local/bin/bench schedule
+2025-05-12 09:18:00,241 INFO /home/labs/.local/bin/bench start
+2025-05-12 09:18:00,339 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-12 09:18:00,339 INFO /home/labs/.local/bin/bench watch
+2025-05-12 09:18:00,344 INFO /home/labs/.local/bin/bench worker
+2025-05-12 09:18:00,396 INFO /home/labs/.local/bin/bench schedule
+2025-05-12 09:22:08,048 INFO /home/labs/.local/bin/bench use airplane.localhost
+2025-05-12 09:22:18,217 INFO /home/labs/.local/bin/bench start
+2025-05-12 09:22:18,325 INFO /home/labs/.local/bin/bench schedule
+2025-05-12 09:22:18,330 INFO /home/labs/.local/bin/bench worker
+2025-05-12 09:22:18,368 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-12 09:22:18,369 INFO /home/labs/.local/bin/bench watch
+2025-05-12 09:24:34,419 INFO /home/labs/.local/bin/bench start
+2025-05-12 09:24:34,524 INFO /home/labs/.local/bin/bench schedule
+2025-05-12 09:24:34,527 INFO /home/labs/.local/bin/bench watch
+2025-05-12 09:24:34,527 INFO /home/labs/.local/bin/bench worker
+2025-05-12 09:24:34,579 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-12 09:41:33,306 INFO /home/labs/.local/bin/bench start
+2025-05-12 09:41:33,421 INFO /home/labs/.local/bin/bench watch
+2025-05-12 09:41:33,437 INFO /home/labs/.local/bin/bench schedule
+2025-05-12 09:41:33,465 INFO /home/labs/.local/bin/bench worker
+2025-05-12 09:41:33,480 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-12 09:45:58,258 INFO /home/labs/.local/bin/bench --sites airplane.localhost add-to-hosts
+2025-05-12 09:46:59,232 INFO /home/labs/.local/bin/bench --site airplane.localhost add-to-hosts
+2025-05-12 09:47:16,197 INFO /home/labs/.local/bin/bench start
+2025-05-12 09:47:43,814 INFO /home/labs/.local/bin/bench use airplane.localhost
+2025-05-12 09:48:41,713 INFO /home/labs/.local/bin/bench start
+2025-05-12 09:49:08,762 INFO /home/labs/.local/bin/bench use airplane.localhost/
+2025-05-12 09:52:09,192 INFO /home/labs/.local/bin/bench use airplane.localhost
+2025-05-12 09:52:33,534 INFO /home/labs/.local/bin/bench start
+2025-05-12 09:53:54,161 INFO /home/labs/.local/bin/bench start
+2025-05-12 09:56:10,950 INFO /home/labs/.local/bin/bench start
+2025-05-12 09:58:18,961 INFO /home/labs/.local/bin/bench start
+2025-05-12 09:58:19,061 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-12 09:58:19,069 INFO /home/labs/.local/bin/bench watch
+2025-05-12 09:58:19,104 INFO /home/labs/.local/bin/bench schedule
+2025-05-12 09:58:19,135 INFO /home/labs/.local/bin/bench worker
+2025-05-12 10:00:36,482 INFO /home/labs/.local/bin/bench start
+2025-05-12 10:00:36,608 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-12 10:00:36,615 INFO /home/labs/.local/bin/bench worker
+2025-05-12 10:00:36,615 INFO /home/labs/.local/bin/bench schedule
+2025-05-12 10:00:36,700 INFO /home/labs/.local/bin/bench watch
+2025-05-12 10:01:45,719 INFO /home/labs/.local/bin/bench --site airplane.localhost add-to-hosts
+2025-05-12 10:08:00,047 INFO /home/labs/.local/bin/bench --site airplane.localhost add-to-hosts
+2025-05-12 10:12:01,714 INFO /home/labs/.local/bin/bench start
+2025-05-12 10:12:01,821 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-12 10:12:01,830 INFO /home/labs/.local/bin/bench worker
+2025-05-12 10:12:01,906 INFO /home/labs/.local/bin/bench schedule
+2025-05-12 10:12:01,912 INFO /home/labs/.local/bin/bench watch
+2025-05-12 12:00:01,611 INFO /home/labs/.local/bin/bench --verbose --site all backup
+2025-05-12 18:00:01,149 INFO /home/labs/.local/bin/bench --verbose --site all backup
+2025-05-13 00:00:01,817 INFO /home/labs/.local/bin/bench --verbose --site all backup
+2025-05-13 04:58:03,325 INFO /home/labs/.local/bin/bench start
+2025-05-13 05:02:12,794 INFO /home/labs/.local/bin/bench start
+2025-05-13 05:03:39,407 INFO /home/labs/.local/bin/bench start
+2025-05-13 05:09:19,468 INFO /home/labs/.local/bin/bench start
+2025-05-13 05:09:28,435 INFO /home/labs/.local/bin/bench stop
+2025-05-13 05:09:58,551 INFO /home/labs/.local/bin/bench start
+2025-05-13 05:54:58,947 INFO /home/labs/.local/bin/bench start
+2025-05-13 06:00:01,499 INFO /home/labs/.local/bin/bench --verbose --site all backup
+2025-05-13 06:02:01,037 INFO /home/labs/.local/bin/bench start
+2025-05-13 06:05:38,541 INFO /home/labs/.local/bin/bench start
+2025-05-13 06:05:38,664 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-13 06:05:38,677 INFO /home/labs/.local/bin/bench schedule
+2025-05-13 06:05:38,682 INFO /home/labs/.local/bin/bench worker
+2025-05-13 06:05:38,700 INFO /home/labs/.local/bin/bench watch
+2025-05-13 06:08:11,626 INFO /home/labs/.local/bin/bench start
+2025-05-13 06:08:11,741 INFO /home/labs/.local/bin/bench watch
+2025-05-13 06:08:11,743 INFO /home/labs/.local/bin/bench worker
+2025-05-13 06:08:11,828 INFO /home/labs/.local/bin/bench schedule
+2025-05-13 06:08:11,840 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-13 06:10:12,923 INFO /home/labs/.local/bin/bench --site airplane.localhost add-to-hosts
+2025-05-13 06:10:28,436 INFO /home/labs/.local/bin/bench start
+2025-05-13 06:10:28,534 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-13 06:10:28,535 INFO /home/labs/.local/bin/bench schedule
+2025-05-13 06:10:28,604 INFO /home/labs/.local/bin/bench worker
+2025-05-13 06:10:28,606 INFO /home/labs/.local/bin/bench watch
+2025-05-13 06:19:29,506 INFO /home/labs/.local/bin/bench --sites
+2025-05-13 06:19:47,998 INFO /home/labs/.local/bin/bench start
+2025-05-13 06:19:48,098 INFO /home/labs/.local/bin/bench worker
+2025-05-13 06:19:48,104 INFO /home/labs/.local/bin/bench schedule
+2025-05-13 06:19:48,106 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-13 06:19:48,155 INFO /home/labs/.local/bin/bench watch
+2025-05-13 06:21:40,636 INFO /home/labs/.local/bin/bench --sites airplane.localhost add-to-hosts
+2025-05-13 06:22:03,453 INFO /home/labs/.local/bin/bench --site airplane.localhost add-to-hosts
+2025-05-13 06:22:15,647 INFO /home/labs/.local/bin/bench start
+2025-05-13 06:22:15,753 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-13 06:22:15,790 INFO /home/labs/.local/bin/bench worker
+2025-05-13 06:22:15,831 INFO /home/labs/.local/bin/bench schedule
+2025-05-13 06:22:15,841 INFO /home/labs/.local/bin/bench watch
+2025-05-13 06:31:13,967 INFO /home/labs/.local/bin/bench start
+2025-05-13 06:31:14,063 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-13 06:31:14,069 INFO /home/labs/.local/bin/bench worker
+2025-05-13 06:31:14,081 INFO /home/labs/.local/bin/bench schedule
+2025-05-13 06:31:14,154 INFO /home/labs/.local/bin/bench watch
+2025-05-13 06:33:51,210 INFO /home/labs/.local/bin/bench start
+2025-05-13 06:35:07,896 INFO /home/labs/.local/bin/bench start
+2025-05-13 06:35:08,022 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-13 06:35:08,035 INFO /home/labs/.local/bin/bench worker
+2025-05-13 06:35:08,067 INFO /home/labs/.local/bin/bench schedule
+2025-05-13 06:35:08,101 INFO /home/labs/.local/bin/bench watch
+2025-05-13 06:36:17,425 INFO /home/labs/.local/bin/bench start
+2025-05-13 06:36:17,536 INFO /home/labs/.local/bin/bench schedule
+2025-05-13 06:36:17,552 INFO /home/labs/.local/bin/bench watch
+2025-05-13 06:36:17,578 INFO /home/labs/.local/bin/bench worker
+2025-05-13 06:36:17,579 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-13 06:45:40,725 INFO /home/labs/.local/bin/bench new-app airplane_mode
+2025-05-13 06:45:40,728 LOG creating new app airplane_mode
+2025-05-13 06:47:42,920 LOG Installing airplane_mode
+2025-05-13 06:47:42,921 DEBUG cd /home/labs/frappe-bench && /home/labs/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/labs/frappe-bench/apps/airplane_mode 
+2025-05-13 06:47:43,994 DEBUG bench build --app airplane_mode
+2025-05-13 06:47:44,049 INFO /home/labs/.local/bin/bench build --app airplane_mode
+2025-05-13 06:50:02,717 INFO /home/labs/.local/bin/bench start
+2025-05-13 06:50:02,866 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-13 06:50:02,866 INFO /home/labs/.local/bin/bench worker
+2025-05-13 06:50:02,907 INFO /home/labs/.local/bin/bench watch
+2025-05-13 06:50:02,942 INFO /home/labs/.local/bin/bench schedule
+2025-05-13 07:08:40,686 INFO /home/labs/.local/bin/bench --site airplane.localhost install-app airplane_mode
+2025-05-13 07:28:18,529 INFO /home/labs/.local/bin/bench --site airplane.localhost set-config developer_mode 1
+2025-05-13 09:35:58,959 INFO /home/labs/.local/bin/bench start
+2025-05-13 09:35:59,060 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-13 09:35:59,065 INFO /home/labs/.local/bin/bench worker
+2025-05-13 09:35:59,074 INFO /home/labs/.local/bin/bench watch
+2025-05-13 09:35:59,105 INFO /home/labs/.local/bin/bench schedule
+2025-05-13 09:42:03,030 INFO /home/labs/.local/bin/bench start
+2025-05-13 09:42:03,186 INFO /home/labs/.local/bin/bench schedule
+2025-05-13 09:42:03,190 INFO /home/labs/.local/bin/bench worker
+2025-05-13 09:42:03,192 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-13 09:42:03,232 INFO /home/labs/.local/bin/bench watch
+2025-05-13 09:45:33,907 INFO /home/labs/.local/bin/bench start
+2025-05-13 09:47:07,758 INFO /home/labs/.local/bin/bench start
+2025-05-13 09:47:07,881 INFO /home/labs/.local/bin/bench worker
+2025-05-13 09:47:07,888 INFO /home/labs/.local/bin/bench watch
+2025-05-13 09:47:07,891 INFO /home/labs/.local/bin/bench schedule
+2025-05-13 09:47:07,966 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-13 10:34:33,440 INFO /home/labs/.local/bin/bench start
+2025-05-13 10:34:33,567 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-13 10:34:33,583 INFO /home/labs/.local/bin/bench worker
+2025-05-13 10:34:33,598 INFO /home/labs/.local/bin/bench watch
+2025-05-13 10:34:33,624 INFO /home/labs/.local/bin/bench schedule
+2025-05-13 12:00:01,253 INFO /home/labs/.local/bin/bench --verbose --site all backup
+2025-05-13 18:00:01,759 INFO /home/labs/.local/bin/bench --verbose --site all backup
+2025-05-14 00:00:01,317 INFO /home/labs/.local/bin/bench --verbose --site all backup
+2025-05-14 01:53:41,095 INFO /home/labs/.local/bin/bench start
+2025-05-14 01:54:59,325 INFO /home/labs/.local/bin/bench start
+2025-05-14 01:54:59,436 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-14 01:54:59,445 INFO /home/labs/.local/bin/bench worker
+2025-05-14 01:54:59,446 INFO /home/labs/.local/bin/bench watch
+2025-05-14 01:54:59,526 INFO /home/labs/.local/bin/bench schedule
+2025-05-14 05:22:49,138 INFO /home/labs/.local/bin/bench start
+2025-05-14 05:22:49,257 INFO /home/labs/.local/bin/bench worker
+2025-05-14 05:22:49,261 INFO /home/labs/.local/bin/bench schedule
+2025-05-14 05:22:49,270 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-14 05:22:49,294 INFO /home/labs/.local/bin/bench watch
+2025-05-14 05:23:14,165 INFO /home/labs/.local/bin/bench start
+2025-05-14 05:24:29,960 INFO /home/labs/.local/bin/bench start
+2025-05-14 05:24:30,069 INFO /home/labs/.local/bin/bench worker
+2025-05-14 05:24:30,069 INFO /home/labs/.local/bin/bench watch
+2025-05-14 05:24:30,081 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-14 05:24:30,171 INFO /home/labs/.local/bin/bench schedule
+2025-05-14 06:00:01,250 INFO /home/labs/.local/bin/bench --verbose --site all backup
+2025-05-14 09:52:57,813 INFO /home/labs/.local/bin/bench start
+2025-05-14 09:52:57,925 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-14 09:52:57,928 INFO /home/labs/.local/bin/bench watch
+2025-05-14 09:52:57,935 INFO /home/labs/.local/bin/bench schedule
+2025-05-14 09:52:57,943 INFO /home/labs/.local/bin/bench worker
+2025-05-14 10:08:18,003 INFO /home/labs/.local/bin/bench start
+2025-05-14 10:08:18,113 INFO /home/labs/.local/bin/bench watch
+2025-05-14 10:08:18,125 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-14 10:08:18,135 INFO /home/labs/.local/bin/bench worker
+2025-05-14 10:08:18,171 INFO /home/labs/.local/bin/bench schedule
+2025-05-14 11:01:46,939 INFO /home/labs/.local/bin/bench start
+2025-05-14 11:04:00,845 INFO /home/labs/.local/bin/bench start
+2025-05-14 11:04:00,953 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-14 11:04:00,955 INFO /home/labs/.local/bin/bench watch
+2025-05-14 11:04:00,959 INFO /home/labs/.local/bin/bench schedule
+2025-05-14 11:04:01,021 INFO /home/labs/.local/bin/bench worker
+2025-05-14 12:00:01,872 INFO /home/labs/.local/bin/bench --verbose --site all backup
+2025-05-14 18:00:01,453 INFO /home/labs/.local/bin/bench --verbose --site all backup
+2025-05-15 00:00:01,987 INFO /home/labs/.local/bin/bench --verbose --site all backup
+2025-05-15 01:54:48,761 INFO /home/labs/.local/bin/bench start
+2025-05-15 01:56:24,766 INFO /home/labs/.local/bin/bench start
+2025-05-15 01:56:24,881 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-15 01:56:24,882 INFO /home/labs/.local/bin/bench schedule
+2025-05-15 01:56:24,902 INFO /home/labs/.local/bin/bench worker
+2025-05-15 01:56:24,903 INFO /home/labs/.local/bin/bench watch
+2025-05-15 06:00:01,507 INFO /home/labs/.local/bin/bench --verbose --site all backup
+2025-05-15 10:19:14,321 INFO /home/labs/.local/bin/bench start
+2025-05-15 10:19:14,443 INFO /home/labs/.local/bin/bench worker
+2025-05-15 10:19:14,450 INFO /home/labs/.local/bin/bench serve --port 8000
+2025-05-15 10:19:14,496 INFO /home/labs/.local/bin/bench schedule
+2025-05-15 10:19:14,501 INFO /home/labs/.local/bin/bench watch
+2025-05-15 11:31:42,105 INFO /home/labs/.local/bin/bench --site airplane.localhost console --autoreload
+2025-05-15 12:00:01,724 INFO /home/labs/.local/bin/bench --verbose --site all backup
+2025-05-15 18:00:01,291 INFO /home/labs/.local/bin/bench --verbose --site all backup
